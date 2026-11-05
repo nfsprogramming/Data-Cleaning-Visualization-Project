@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDEs & code editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing & coverage caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Project-specific: data/ and outputs/ are tracked portfolio assets
+# !data/
+# !outputs/

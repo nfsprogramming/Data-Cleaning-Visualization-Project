@@ -1,0 +1,9 @@
+Metric,Count,Reason
+Initial Rows,12,Original dataset
+After Duplicate Removal,10,Duplicate rows removed
+After Missing Value Handling,10,Missing values filled (no rows removed)
+After Outlier Filtering,8,Statistical outliers removed using IQR method
+Final Rows,8,Final cleaned dataset
+Total Rows Removed,4,Total rows removed during cleaning
+Duplicate Rows Removed,2,Exact duplicate records
+Outlier Rows Removed,2,"Values outside 1.5*IQR range (Age, Salary)"
